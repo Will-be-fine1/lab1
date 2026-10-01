@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             WizytowkaTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Daniil",
+                        name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Daniil Mylenko",
+        text = "Daniil",
         modifier = modifier
     )
 }
